@@ -1,0 +1,19 @@
+.video-list-item {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #DDD;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+    &:hover {
+        background-color: #EEE;
+        transition: 0.3s ease-out;
+    }
+
+    h6 {
+        font-size: 16px;
+    }
+    p {
+        opacity: 0.7;
+        font-size: 12px;
+    }
+}

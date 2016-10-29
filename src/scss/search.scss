@@ -1,0 +1,17 @@
+.search {
+    width: 80%;
+    margin: 0 auto;
+
+    input[type="text"] {
+        display: block;
+        width: 70%;
+        margin: 20px auto;
+        border: 1px solid #D4D4D4;
+        padding: 10px 15px;
+        font-size: 12px;
+        &:focus {
+            outline: none;
+            border: 1px solid #D4D4D4;
+        }
+    }
+}
